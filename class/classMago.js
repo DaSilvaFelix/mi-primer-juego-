@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 class Mago extends Personaje {
   constructor() {
-    super("Mango Místico", 100, 12, 3);
+    super("Mago Místico", 80, 12, 3);
   }
 
   ataqueNormal() {
@@ -13,7 +13,7 @@ class Mago extends Personaje {
 
   ataqueEspecial() {
     console.log(`                                                                ${chalk.green(this.nombre)} lanza jugo ácido!`);
-    return this.ataque + 5;
+    return this.ataque + 30;
   }
 }
 
