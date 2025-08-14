@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 class Guerrero extends Personaje {
   constructor() {
-    super("Guerrero Valiente", 80, 15, 5);
+    super("Guerrero Valiente", 100, 15, 5);
   }
 
   ataqueNormal() {

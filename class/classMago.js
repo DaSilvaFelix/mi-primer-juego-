@@ -1,9 +1,9 @@
 import Personaje from "./classPersonaje.js";
 import chalk from "chalk";
 
-class Mango extends Personaje {
+class Mago extends Personaje {
   constructor() {
-    super("Mango Místico", 50, 12, 3);
+    super("Mango Místico", 100, 12, 3);
   }
 
   ataqueNormal() {
@@ -17,4 +17,4 @@ class Mango extends Personaje {
   }
 }
 
-export default Mango;
+export default Mago;
