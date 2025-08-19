@@ -1,4 +1,4 @@
-## diagrama de case
+## diagrama de clase
 
 ![Texto alternativo](image.png)
 
