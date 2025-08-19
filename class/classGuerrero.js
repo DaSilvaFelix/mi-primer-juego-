@@ -13,7 +13,7 @@ class Guerrero extends Personaje {
 
   ataqueEspecial() {
     console.log(`                                                                ${chalk.green(this.nombre)} realiza un golpe de espada poderoso!`);
-    return this.ataque + 10;
+    return this.ataque * 4;
   }
 }
 

@@ -6,8 +6,10 @@ function elegirAtaque(personaje, callback) {
     `\n                                                               ${chalk.green(personaje.nombre)}, elige tu ataque:\n${chalk.yellow(
       "                                                               1. Ataque normal"
     )}\n${chalk.yellow("                                                               2. Ataque especial")}\n> `,
+
     (opcion) => {
       let danio;
+
       if (opcion === "1") {
         danio = personaje.ataqueNormal();
       } else if (opcion === "2") {
